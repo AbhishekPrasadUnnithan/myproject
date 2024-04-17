@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Products</title>
+  <link rel="stylesheet" href="p.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#"><img src="logo.png" alt="Farmers Marketplace"></a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        
+        <li><a href="#">About Us</a></li>
+      
+      </ul>
+    </div>
+    <div class="user">
+      <ul>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Product Addition Form -->
+  <section class="product-form">
+    <div class="container">
+      <h2>Add New Product</h2>
+      <form action="#" method="post">
+        <div class="input-group">
+          <label for="name">Product Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+          <label for="image">Product Image:</label>
+          <input type="file" id="image" name="image" accept="image/*" required>
+        </div>
+        <div class="input-group">
+          <label for="caption">Caption:</label>
+          <textarea id="caption" name="caption" rows="4" required></textarea>
+        </div>
+        <div class="input-group">
+          <label for="price">Price:</label>
+          <input type="text" id="price" name="price" required>
+        </div>
+        <div class="input-group">
+          <label for="category">Category:</label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>Select Category</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="fruits">Fruits</option>
+            <option value="cereals">Cereals</option>
+            <option value="medicinal_plants">Medicinal Plants</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <button type="submit">Add Product</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray */
+    color: #333; /* Dark gray */
+  }
+  
+  /* Navigation Bar Styling */
+  .navbar {
+    background-color: #343a40; /* Dark gray */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust as needed */
+  }
+  
+  .menu ul,
+  .user ul {
+    list-style-type: none;
+  }
+  
+  .menu ul li,
+  .user ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a,
+  .user ul li a {
+    text-decoration: none;
+    color: #fff; /* White */
+  }
+  
+  .menu ul li a:hover,
+  .user ul li a:hover {
+    color: #ffc107; /* Yellow */
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #343a40; /* Dark gray */
+    color: #fff; /* White */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  /* About Section Styling */
+  .about {
+    padding: 50px;
+  }
+  
+  .about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    line-height: 1.6;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #343a40; /* Dark gray */
+    color: #fff; /* White */
+    padding: 20px 0;
+    text-align: center;
+  }
+  

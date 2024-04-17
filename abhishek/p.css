@@ -1,0 +1,101 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray */
+    color: #333; /* Dark gray */
+  }
+  
+  /* Navigation Bar Styling */
+  .navbar {
+    background-color: #343a40; /* Dark gray */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust as needed */
+  }
+  
+  .menu ul,
+  .user ul {
+    list-style-type: none;
+  }
+  
+  .menu ul li,
+  .user ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a,
+  .user ul li a {
+    text-decoration: none;
+    color: #fff; /* White */
+  }
+  
+  .menu ul li a:hover,
+  .user ul li a:hover {
+    color: #ffc107; /* Yellow */
+  }
+  
+  /* Product Form Styling */
+  .product-form {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Dark gray */
+  }
+  
+  .input-group input,
+  .input-group select,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-group textarea {
+    resize: vertical;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; /* White */
+    transition: background-color 0.3s;
+  }
+  
+  .input-group button:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+  }
+  
